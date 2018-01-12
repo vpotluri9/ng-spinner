@@ -39,6 +39,10 @@
       rxjs: {
         defaultExtension: 'js'
       },
+      'rxjs/operators': {
+        defaultExtension: 'js',
+        main: 'index'
+      },
       'ng-spinner': {
         main: 'index.js',
         defaultExtension: 'js',

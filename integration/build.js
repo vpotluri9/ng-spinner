@@ -44,8 +44,8 @@ return Promise.resolve()
     // Copy global stylesheets, images, etc.
     const assets = [
       'favicon.ico',
-      'spinner.svg',
-      'styles.css'
+      'styles.css',
+      'spinner.svg'
     ];
 
     return Promise.all(assets.map(asset => _relativeCopy(asset, srcDir, distDir)));

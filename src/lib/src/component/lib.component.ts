@@ -6,7 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./lib.component.css']
 })
 export class LibComponent {
-
   @Input() display = false;
-
 }

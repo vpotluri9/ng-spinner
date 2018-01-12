@@ -1,14 +1,20 @@
 {
   "name": "ng-spinner",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./bundles/ng-spinner-lib.umd.js",
-  "module": "./ng-spinner-lib.es5.js",
-  "es2015": "./ng-spinner-lib.js",
-  "typings": "./ng-spinner-lib.d.ts",
-  "author": "",
+  "version": "1.0.2",
+  "description": "simple overlay spinner for angular applications",
+  "main": "./bundles/ng-spinner.umd.js",
+  "module": "./ng-spinner.es5.js",
+  "es2015": "./ng-spinner.js",
+  "typings": "./ng-spinner.d.ts",
   "license": "MIT",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpotluri9/ng-spinner"
+  },
+  "author": {
+    "name": "Venkatesh Potluri",
+    "email": "vpotluri07@gmail.com"
+  },
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
@@ -37,15 +43,15 @@
     "release": "standard-version"
   },
   "peerDependencies": {
-    "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0"
+    "@angular/core": ">=5.0.0 <6.0.0"
   },
   "devDependencies": {
-    "@angular/common": "~4.1.3",
-    "@angular/compiler": "~4.1.3",
-    "@angular/compiler-cli": "~4.1.3",
-    "@angular/core": "~4.1.3",
-    "@angular/platform-browser": "~4.1.3",
-    "@angular/platform-browser-dynamic": "~4.1.3",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.46",
     "camelcase": "^4.0.0",
@@ -68,11 +74,11 @@
     "rollup-plugin-uglify": "^2.0.1",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "rxjs": "^5.0.1",
+    "rxjs": "^5.5.2",
     "standard-version": "^4.0.0",
     "systemjs": "^0.19.40",
     "tslint": "^4.4.2",
-    "typescript": "~2.3.0",
+    "typescript": "~2.4.2",
     "zone.js": "^0.8.4"
   }
 }
