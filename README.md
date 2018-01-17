@@ -1,10 +1,12 @@
-This is a simple overlay spinner for Angular apps.
+# Ng-spinner
 
-Installation:
+This is a simple overlay spinner for Angular apps with perfectly centered spinner for all device sizes.
+
+## Installation:
 
     npm install ng-spinner --save
 
-Set-Up:
+## Set-Up:
 
     Import SpinnerModule in your app.module.ts file
     import { SpinnerModule } from 'ng-spinner';
@@ -35,7 +37,7 @@ Set-Up:
         @import 'variables';
         @import '../node_modules/font-awesome/scss/font-awesome';
 
-Usage:
+## Usage:
 
     Tag: <ng-spinner></ng-spinner>
 
@@ -44,6 +46,19 @@ Usage:
 
     When you want to stop the spinner 
         <ng-spinner [display]="false"></ng-spinner> 
+
+    When you want to display an overlay error symbol in place of spinner
+        <ng-spinner [display]="true" [error]="true"></ng-spinner>
+
+    When you want to remove the overlay error symbol
+        <ng-spinner [display]="false" [error]="true"></ng-spinner>
+
+## Best use case: 
+
+    when you have an async call -> set the display variable to true and error variable false
+    data successfully loaded -> set the display variable to false and error variable false
+    if there is an error loading -> set the error variable to true and display variable to true
+    if you want to remove the error symbol -> set the display variable to false
 
 If you find any issues, you can report at 
 https://github.com/vpotluri9/ng-spinner/issues

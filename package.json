@@ -1,6 +1,6 @@
 {
   "name": "ng-spinner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "simple overlay spinner for angular applications",
   "license": "MIT",
   "repository": {
@@ -11,6 +11,14 @@
     "name": "Venkatesh Potluri",
     "email": "vpotluri07@gmail.com"
   },
+  "keywords": [
+    "Angular",
+    "module",
+    "component",
+    "spinner",
+    "overlay",
+    "loading spinner"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
