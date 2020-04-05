@@ -9,7 +9,8 @@ This is a simple overlay spinner for Angular apps with perfectly centered spinne
 ## Versions: 
     v1.0.0 - Angular 5 |
     v6.0.0 - Angular 6 |
-    v7.0.0 - Angular 7
+    v7.0.0 - Angular 7 |
+    v8.0.0 - Angular 8
 
 ## Set-Up:
 
