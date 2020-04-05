@@ -6,6 +6,10 @@ This is a simple overlay spinner for Angular apps with perfectly centered spinne
 
     npm install ng-spinner --save
 
+## Versions: 
+    v1.0.0 - Angular 5 |
+    v6.0.0 - Angular 6
+
 ## Set-Up:
 
     Import SpinnerModule in your app.module.ts file
